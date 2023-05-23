@@ -1,0 +1,45 @@
+---
+title: "My slides"
+format: revealjs
+editor: visual
+---
+
+# Intro
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+::: footer
+Custom footer
+:::
+
+# Slide types
+
+## Bullets
+
+This is a unordered list
+
+::: incremental
+-   This is one point[^1]
+-   This is an other point
+    -   This is a sub point
+:::
+
+[^1]: This is a footnote for this slide
+
+## Aside
+
+This slide should show an aside. What an aside is, is explained below.
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+::: notes
+This notes can help the speaker to present the slides better.
+:::
+
+## Image
+
+![Funny image](https://tse2.mm.bing.net/th?id=OIP.K4ymE2TKyh6N14Q36djFuwHaHY&pid=Api){fig-alt="This image shows a small cat that has here crawls out. On the picture it is written as a quote \"Holy crap! I'm Wolverine!\"" fig-align="left"}
